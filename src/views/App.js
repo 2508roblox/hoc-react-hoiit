@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.scss';
+import Example from './Example';
 
 function App() {
+  const auth = {
+    name: 'Giang',
+    age: 18,
+  };
   return (
     <div className='App'>
       <header className='App-header'>
@@ -20,6 +25,7 @@ function App() {
           rel='noopener noreferrer'>
           Learn React
         </a>
+        <Example  />
       </header>
     </div>
   );
